@@ -3,7 +3,6 @@ gsap.utils.toArray('.fade-in').forEach(function(elem) {
     gsap.fromTo(elem, { opacity: 0 }, {
         opacity: 1,
 		immediateRender: true,
-		markers: true,
         scrollTrigger: {
             trigger: elem,
             start: "top 80%",
